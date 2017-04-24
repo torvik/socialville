@@ -1,1 +1,3 @@
 git remote add origin git@github.com:torvik/socialville.git
+
+git remote add origin https://github.com/torvik/socialville.git
