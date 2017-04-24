@@ -52,3 +52,10 @@ end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
+
+
+gem 'simple_form', '~> 3.4'  # rails generate simple_form:install --bootstrap
+gem 'devise', '~> 4.2', '>= 4.2.1' 
+# rails generate devise:install
+# rails generate devise User
+# config/environments/development.rb: config.action_mailer.default_url_options = { host: 'localhost', port: 3000 }
