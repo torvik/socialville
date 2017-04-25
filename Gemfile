@@ -70,5 +70,5 @@ gem 'sprockets-rails'
 
 gem 'pg', '~> 0.18.4', group: :production
 gem 'rails_12factor', group: :production
-
-
+gem "paperclip", "~> 5.0.0"
+gem 'aws-sdk', '~> 2.0', '>= 2.0.48'
