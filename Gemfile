@@ -18,7 +18,7 @@ gem 'sass-rails', '~> 5.0'
 gem 'uglifier', '>= 1.3.0'
 # See https://github.com/rails/execjs#readme for more supported runtimes
 # gem 'therubyracer', platforms: :ruby
-
+gem 'jquery-rails'
 # Use CoffeeScript for .coffee assets and views
 gem 'coffee-rails', '~> 4.2'
 # Turbolinks makes navigating your web application faster. Read more: https://github.com/turbolinks/turbolinks
@@ -55,7 +55,12 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 
 gem 'simple_form', '~> 3.4'  # rails generate simple_form:install --bootstrap
-gem 'devise', '~> 4.2', '>= 4.2.1' 
+gem 'devise', '~> 4.2', '>= 4.2.1'
 # rails generate devise:install
 # rails generate devise User
 # config/environments/development.rb: config.action_mailer.default_url_options = { host: 'localhost', port: 3000 }
+
+gem 'bootstrap-sass', '~> 3.3', '>= 3.3.7'
+gem 'bootstrap-sass-extras', '~> 0.0.7'
+gem "autoprefixer-rails"
+gem 'sprockets-rails'
