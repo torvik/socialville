@@ -48,6 +48,8 @@ group :development do
   # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
   gem 'spring'
   gem 'spring-watcher-listen', '~> 2.0.0'
+  gem 'figaro', '~> 1.1', '>= 1.1.1'
+
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
@@ -64,3 +66,8 @@ gem 'bootstrap-sass', '~> 3.3', '>= 3.3.7'
 gem 'bootstrap-sass-extras', '~> 0.0.7'
 gem "autoprefixer-rails"
 gem 'sprockets-rails'
+
+gem 'pg', '~> 0.18.4', group: :production
+gem 'rails_12factor', group: :production
+
+
